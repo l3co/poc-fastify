@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/l3costa/poc-fastify/issues"
   },
-  "homepage": "https://github.com/l3costa/poc-fastify#readme"
+  "homepage": "https://github.com/l3costa/poc-fastify#readme",
+  "dependencies": {
+    "fastify": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
